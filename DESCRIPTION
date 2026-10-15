@@ -1,0 +1,27 @@
+Package: dataExplorerApp
+Title: Environmental Data Explorer Shiny Application
+Version: 0.1.0
+Authors@R: person("Data Explorer", "Maintainers", role = c("aut", "cre"))
+Description: A Shiny application for preprocessing and exploring environmental
+    time-series datasets with gap-aware multi-resolution summaries.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.1.0)
+Imports:
+    data.table,
+    dplyr,
+    ggplot2 (>= 3.4.0),
+    plotly,
+    promises,
+    purrr,
+    readr,
+    scales,
+    shiny,
+    stringr,
+    tibble,
+    tidyr
+Suggests:
+    future,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
